@@ -1,8 +1,9 @@
 import { defineConfig } from "vite";
-import solid from "vite-plugin-solid";
+import vue from "@vitejs/plugin-vue";
+import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig(async () => ({
-  plugins: [solid()],
+  plugins: [vue()],
   clearScreen: false,
   server: {
     port: 1420,
@@ -10,5 +11,8 @@ export default defineConfig(async () => ({
     watch: {
       ignored: ["**/src-tauri/**"],
     },
+  },
+  alias: {
+    "@": fileURLToPath(new URL("./src", import.meta.url)),
   },
 }));

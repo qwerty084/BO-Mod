@@ -18,5 +18,7 @@ jobs:
         run: npm run lint
       - name: Check code style
         run: npm run format:check
+      - name: Type check
+        run: npm run type-check
       - name: Test build
         run: npm run build
