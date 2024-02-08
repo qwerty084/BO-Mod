@@ -1,4 +1,4 @@
-# App for managing Setting & Mods in Black Ops Zombies and tracking game stats
+# Application for Mods in Black ops 1 and 2 Zombies 
 
 ## WIP
 
