@@ -1,9 +1,12 @@
-# App for managing Setting & Mods in Black Ops Zombies and tracking game stats
+# Black Ops 1 & 2 Zombie Mod
 
 ## WIP
 
 ### Goals:
 
 - Interface for keybindings (Map binds, god mode etc...)
-- Tracking stats of games (Game History, Personal Best, Kills, Times)
-- Ingame UI for Round timer
+- Tracking game stats (Game History, Personal Best, Kills, Times)
+- Ingame UI for Round timer, Game timer...
+- Twitch integration
+- World Record Compatible Mode & "Hack mode"
+- various other features
