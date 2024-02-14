@@ -21,8 +21,11 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div data-tauri-drag-region>
-    <p style="font-size: 56px; color: #fff; font-weight: 500; -webkit-user-select: none">
+  <div>
+    <p
+      data-tauri-drag-region
+      style="margin: 0; font-size: 56px; color: #fff; font-weight: 500; -webkit-user-select: none"
+    >
       {{ timer }}
     </p>
   </div>
