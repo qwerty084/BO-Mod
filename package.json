@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "format:check": "prettier src/ --check",
-    "format": "prettier src/ --write",
+    "format:check": "prettier frontend/ --check",
+    "format": "prettier frontend/ --write",
     "type-check": "vue-tsc --noEmit",
     "tauri": "tauri",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
