@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.v-enter-active {
+  transition: opacity 0.3s;
+}
+
+.v-enter-from {
+  opacity: 0;
+}
+
+.fade-leave-active,
+.fade-enter-active {
+  transition: opacity 0.3s;
+}
+
+.fade-leave-to,
+.fade-enter-from {
+  opacity: 0;
+}
