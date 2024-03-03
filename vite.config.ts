@@ -9,10 +9,10 @@ export default defineConfig(async () => ({
     port: 1420,
     strictPort: true,
     watch: {
-      ignored: ["**/src-tauri/**"],
+      ignored: ["**/backend/**"],
     },
   },
   alias: {
-    "@": fileURLToPath(new URL("./src", import.meta.url)),
+    "@": fileURLToPath(new URL("./frontend", import.meta.url)),
   },
 }));
